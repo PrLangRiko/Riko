@@ -40,5 +40,39 @@
             "tanh":1,
             "trunc":1
         }
+    },
+    "string.js":{
+        "functions":{
+            "charAt":2,
+            "charCodeAt":2,
+            "codePointAt":2,
+            "concat":2,
+            "endsWith":3,
+            "includes":2,
+            "indexOf":3,
+            "lastIndexOf":3,
+            "length":1,
+            "localeCompare":2,
+            "match":2,
+            "matchAll":3,
+            "normalize":1,
+            "padEnd":3,
+            "padStart":3,
+            "repeat":2,
+            "replace":3,
+            "search":2,
+            "slice":3,
+            "split":3,
+            "startsWith":3,
+            "substring":3,
+            "toLocaleLowerCase":2,
+            "toLocaleUpperCase":2,
+            "toLowerCase":1,
+            "toString":1,
+            "toUpperCase":1,
+            "trim":1,
+            "trimEnd":1,
+            "trimStart":1
+        }
     }
 }
