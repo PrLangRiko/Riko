@@ -179,6 +179,17 @@ you can start program like this(in cmd)
       -c++<br>
       -(in the plan are ruby, rust and java )<br>
   ______<br>
+  
+  <h5>1 December 2022</h5><br>
+  .js,<br>
+  .lua<br>
+  and<br>
+  .so (lib)<br>
+  can now be importted and used<br>
+  and small update:<br>
+    -dict:
+      {"name":"value"}
+  ______<br>
 
 # How do you use riko
 it is easy
