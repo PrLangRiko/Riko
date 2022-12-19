@@ -190,7 +190,31 @@ you can start program like this(in cmd)
     -dict:
       {"name":"value"}
   ______<br>
-
+  
+  <h5>19 December 2022</h5><br>
+  -GuiMake<br>
+  -GuiConfig<br>
+  -GuiMainloop<br>
+  -image<br>
+  -image_save<br>
+  -pcall<br>
+  are removed<br>
+  added<br>
+  
+  
+    #KEY will be name of file extenson is .crk
+    CompileProgram(KEY)
+    #Returns null
+    
+    #KEY is name of file loads
+    LoadCompiledProgram(KEY)
+    #Returns null
+    
+    #KEY is name of file to delete
+    DeleteCompiledProgram(KEY)
+    #Returns null
+    
+    
 # How do you use riko
 it is easy
 <h3>Key Words</h3>
@@ -238,18 +262,12 @@ it is easy
 "listdir",<br>
 "replace",<br>
 "edit_index",<br>
-"GuiMake",<br>
-"GuiConfig",<br>
-"GuiMainloop",<br>
 "str",<br>
 "int",<br>
 "float",<br>
 "bool",<br>
-"image",<br>
-"image_putpixel",<br>
-"image_save",<br>
+"image_putpixel",<br>#
 "thread",<br>
-"pcall",<br>
 
 "true",<br>
 "false",<br>
