@@ -192,6 +192,7 @@ you can start program like this(in cmd)
   ______<br>
   
   <h5>19 December 2022</h5><br>
+  NEXT will be added riko's own pakage system<br>
   -GuiMake<br>
   -GuiConfig<br>
   -GuiMainloop<br>
@@ -199,14 +200,14 @@ you can start program like this(in cmd)
   -image_save<br>
   -pcall<br>
   are removed<br>
-  added<br>
+  added 3 new build in functions<br>
   
   
-    #KEY will be name of file extenson is .crk
+    #KEY will be name of file extenson is .crk can be found in ./LocalCompiledSaves
     CompileProgram(KEY)
     #Returns null
     
-    #KEY is name of file loads
+    #KEY is name of file loads it will check LocalCompiledSaves and WebMouduls
     LoadCompiledProgram(KEY)
     #Returns null
     
