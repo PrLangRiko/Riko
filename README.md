@@ -187,8 +187,8 @@ you can start program like this(in cmd)
   .so (lib)<br>
   can now be importted and used<br>
   and small update:<br>
-    -dict:
-      {"name":"value"}
+    -dict:<br>
+      {"name":"value"}<br>
   ______<br>
   
   <h5>19 December 2022</h5><br>
@@ -214,6 +214,16 @@ you can start program like this(in cmd)
     #KEY is name of file to delete
     DeleteCompiledProgram(KEY)
     #Returns null
+    
+    
+  <h5>21 December 2022</h5><br>
+  Added 2 files:<br>
+    -LIM<br>
+    -LIMup<br>
+  LIM is used for downloading modules<br>
+  and<br>
+  LIMup is used for uploading your own modules<br>
+  ______<br>
     
     
 # How do you use riko
@@ -267,8 +277,11 @@ it is easy
 "int",<br>
 "float",<br>
 "bool",<br>
-"image_putpixel",<br>#
+"image_putpixel",<br>
 "thread",<br>
+"CompileProgram",<br>
+"LoadCompiledProgram",<br>
+"DeleteCompiledProgram",<br>
 
 "true",<br>
 "false",<br>
