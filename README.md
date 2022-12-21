@@ -223,6 +223,7 @@ you can start program like this(in cmd)
   LIM is used for downloading modules<br>
   and<br>
   LIMup is used for uploading your own modules<br>
+  for uploading files use .crk files<br>
   ______<br>
     
     
